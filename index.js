@@ -57,8 +57,6 @@ async function run() {
       res.send(result);
     });
 
-   
-
     // ********************
     app.get("/courses/:id", async (req, res) => {
       const id = req.params.id;
@@ -77,7 +75,6 @@ async function run() {
       res.send(result);
     });
 
-    //  Manage Courses API
 
     // get courses by user email
     app.get("/my-courses", async (req, res) => {
